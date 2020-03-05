@@ -1,0 +1,130 @@
+
+
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>javascript Dom tutorial</title>
+<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
+<!--<link rel="stylesheet" href="bootstrap/style.css" type="text/css"/>--->
+
+</head>
+
+<body>
+  <header id="main-header">
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <h1><a href="#" class="navbar-brand" id="site-header">ITEM LISTER</a></h1>
+      <!--search text box in the header-->
+      <div class="search self-align-center">
+            <input type="text" class="form-control" id="filter" placeholder="search items...">
+          </div>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navmenu">
+
+          <span class="navbar-toggler-icon"></span>
+           </button>
+
+      <div class="collapse navbar-collapse" id="navmenu" >
+            
+        
+      <ul class="navbar-nav ml-auto" >
+         
+        <li class="navbar-item">
+            <a href="#" class="nav-link">Home</a>
+
+        </li>
+
+          <li class="navbar-item dropdown">
+              <a href="" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">Products</a>
+                <div class="dropdown-menu dropdown-primary bg-danger">
+
+                    <a class="dropdown-item " href="#">Phones</a>
+                    <a class="dropdown-item" href="#">Camera</a>
+                    <a class="dropdown-item" href="#">Laptops</a>
+                </div>
+          </li>
+
+          <li class="navbar-item">
+              <a href="#" class="nav-link">Services</a>
+
+          </li>
+
+          <li class="navbar-item">
+              <a href="#" class="nav-link">About</a>
+
+          </li>
+      </ul>
+</div>
+    </nav>
+    </div>
+    </header>
+  <div class="container">
+  <div class="page-header">
+    <h2 id="header-title">javascript Dom</h2>
+  </div><br/><br/>
+
+<div class="jumbotron" >
+  <h3 align="center"> JAVASCRIPT DOM LESSON</h3>
+</div>
+<div id="main" class="card card-body">
+<h3 class="title">Add Items</h3>
+<form class="form-inline mb-3" id="addform">
+
+  <input type="text" class="form-control mr-2" id="item">
+  <select class="form-control mr-2">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+
+
+  </select>
+  <input type="submit" class="btn btn-primary" value="submit">
+
+
+</form>
+<h2 class="title">ITEMS</h2>
+<ul id="items" class="list-group">
+<li class="list-group-item">items 1 <button class="btn btn-danger btn-sm float-right delete">x</button>
+</li>
+<li class="list-group-item">items 2
+    <button class="btn btn-danger btn-sm float-right delete">x</button>
+</li>
+<li class="list-group-item">items 3 
+        <button class="btn btn-danger btn-sm float-right delete">x</button>
+</li>
+<li class="list-group-item">items 4
+        <button class="btn btn-danger btn-sm float-right delete">x</button>
+</li>
+</ul>
+<div id="display"></div>
+</div>
+
+<br/><br/>
+<button class="btn btn-warning btn-block" id="button">click here</button>
+
+
+</div>
+</div>
+<script src="C:\Users\l24n1rd\Desktop\Dom js\bootstrap\js\jquery-3.2.1.min.js"></script>
+  <script src="bootstrap/js/bootstrap.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- <script src="bootstrap/js/bootstrap.bundle.min.js"></script> -->
+    <script type="text/javascript" src="dom4.js"></script>
+		 
+  </body>
+
+
+
+
+
+
+
+
+
+
+
+  </html>
